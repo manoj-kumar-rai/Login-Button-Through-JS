@@ -8,7 +8,27 @@
 </head>
 <body>
 
-    <div class="container">
+
+  <button class="login_btn">Login</button>
+
+  <div class="overlay" onclick="closeModal()"></div>
+  <div class="loginform">
+    <span>&times;</span>
+    <form action="">
+      <div>
+          <label for="">Username</label>
+          <input type="text">
+      </div>
+      <div>
+          <label for="">Password</label>
+          <input type="text">        
+      </div>
+      <button>LOGIN</button>
+    </form>
+  </div>
+
+    <!-- <div class="container">
+      <span class="close_btn">&times;</span>
     <div class="form-toggle">
       <button onclick="showLogin()">Login</button>
       <button onclick="showSignup()">Signup</button>
@@ -28,14 +48,8 @@
       <input type="password" placeholder="Password" required>
       <button type="submit">Signup</button>
     </form>
-  </div>
-
-  <div id="new_container">
-    <button id="loginButton">Login</button>
-    <button id="signupButton">Signup</button>
-  </div>
-
+  </div> -->
   
-    <script src="login.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
